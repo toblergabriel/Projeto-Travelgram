@@ -8,3 +8,15 @@ footer{
 footer span:nth-child(1){
     margin-right: auto;
 }
+
+
+@media (max-width: 700px) {
+    footer{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    footer span:nth-child(1){
+        margin-right: 0;
+    }
+}

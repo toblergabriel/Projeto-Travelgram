@@ -20,3 +20,16 @@ width: 40px;
 height: 40px;
 }
 
+@media (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    nav ul{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}

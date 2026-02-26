@@ -8,6 +8,7 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
 }
 
 #profile {
@@ -52,4 +53,34 @@ header .container{
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+
+@media (max-width: 960px) {
+    header .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #info{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    #profile{
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #profile img{
+        width: 120px;
+        height: 120px;
+    }
+
+    #profile h1{
+        font-size: 1.75rem;
+        white-space: normal;
+    }
 }

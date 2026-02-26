@@ -1,6 +1,8 @@
 main {
     display: flex;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 24px;
     padding-block: 24px;
 }
@@ -8,7 +10,15 @@ main {
 main img {
     width: 286px;
     height: 286px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
     object-fit: cover;
 
 }
 
+@media (max-width: 700px) {
+    main {
+        gap: 16px;
+    }
+}
