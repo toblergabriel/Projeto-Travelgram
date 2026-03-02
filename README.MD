@@ -29,8 +29,6 @@ Projeto ideal para treinar **estrutura semântica em HTML** e **organização de
 
 ## 🖼️ Layout
 
-<img src= "./assets/image/print.png" alt= "Projeto funcionando">
-
 ```md
 ![Preview do projeto]()
 ```
